@@ -12,6 +12,16 @@
 namespace dsl {
 
 class BitArray {
+  
+  int * arr;
+  int wordSize;
+  
+public:
+  BitArray (unsigned int);
+  ~BitArray();
+  
+  void set(unsigned int index, bool val);
+  bool get(unsigned int index);
 
 } ;
 

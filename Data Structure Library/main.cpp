@@ -15,8 +15,10 @@ using namespace dsl;
 int main(int argc, const char * argv[]) {
   // Run performance tests
   
-  BitArray b;
+  BitArray b(100);
   
+  b.set(4,1);
+  cout << b.get(4) << endl << b.get(3) << endl;
   
   return 0;
 }
