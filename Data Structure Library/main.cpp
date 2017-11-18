@@ -7,9 +7,16 @@
 //
 
 #include <iostream>
+#include "dsl/array/bitarray.h"
+
+using namespace std;
+using namespace dsl;
 
 int main(int argc, const char * argv[]) {
-  // insert code here...
-  std::cout << "Hello, World!\n";
+  // Run performance tests
+  
+  BitArray b;
+  
+  
   return 0;
 }
